@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">YTUYemek</string>
+    <string name="main_title">YILDIZ TECHNICAL UNIVERSITY</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="tryAgain">Try again</string>
+    <string name="somethingWentWrong">Something went wrong! Please check for updates.</string>
+    <string name="noInternet">You don\'t have internet connection.</string>
+    <string name="notification_title">It\'s meal time.</string>
+    <string name="loadingMeals">Loading meals..</string>
+    <string name="savedMeals">List of meals has been saved.</string>
+    <string name="alreadyUpdated">Already updated.</string>
+    <string name="noMeal">No meal.</string>
+    <string name="mealOfToday">Meal of Today</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="notification">Notifications</string>
+    <string name="notification_desc">Every meal time</string>
+    <string name="mealHours">Meal hours</string>
+    <string name="fetchMeals">Fetch meals</string>
+    <string name="appInfo">Information</string>
+    <string name="aboutApp">About app</string>
+    <string name="usedLibraries">Used Libraries</string>
+    <string name="libraries" translatable="false">\n- AsyncHttpClient (loopj)</string>
+
+    <string-array name="notification_texts">
+        <item>Come if you want to eat %s.</item>
+        <item>Are you hungry? Try %s.</item>
+    </string-array>
+    <string-array name="pref_hours_titles">
+        <item>11:00 and 17:00</item>
+        <item>Only 11:00</item>
+        <item>Only 17:00</item>
+    </string-array>
+    <string-array name="pref_hours_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+	
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YTÜYemek</string>
+    <string name="main_title">YILDIZ TEKNİK ÜNİVERSİTESİ</string>
+    <string name="aboutApp">Uygulama Hakkında</string>
+    <string name="alreadyUpdated">Yemek listesi zaten güncel.</string>
+    <string name="noMeal">Yemek yok.</string>
+    <string name="loadingMeals">Yemekler alınıyor..</string>
+    <string name="mealOfToday">Günün yemeği</string>
+    <string name="noInternet">İnternet bağlantın yok.</string>
+    <string name="notification_title">Yemek vakti</string>
+    <string name="savedMeals">Yeni yemek listesi başarıyla kaydedildi.</string>
+    <string name="somethingWentWrong">Bir şeyler ters gitti! Güncellemeleri kontrol edin.</string>
+    <string name="title_activity_preferences">Tercihler</string>
+    <string name="tryAgain">Yeniden dene</string>
+    <string name="usedLibraries">Kullanılan Kütüphaneler</string>
+
+    <string-array name="notification_texts">
+        <item>Yemek vakti geldi, %s var yemekte.</item>
+        <item>Acıktıysan gel yemekhaneye, %s yemeye!</item>
+        <item>Acıkmadın mı? Yemekte %s var.</item>
+    </string-array>
+    <string-array name="pref_hours_titles">
+        <item>11:00 ve 17:00</item>
+        <item>Sadece 11:00</item>
+        <item>Sadece 17:00</item>
+    </string-array>
+    <string-array name="pref_hours_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="fetchMeals">Yemekleri yeniden al</string>
+    <string name="appInfo">Uygulama Bilgileri</string>
+    <string name="mealHours">Yemek saatleri</string>
+    <string name="notification">Bildirimleri al</string>
+    <string name="notification_desc">Her yemek saati</string>
+    <string name="dinner">Akşam</string>
+    <string name="lunch">Öğle</string>
+</resources>
