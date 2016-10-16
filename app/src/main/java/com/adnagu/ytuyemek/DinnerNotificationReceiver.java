@@ -36,14 +36,13 @@ public class DinnerNotificationReceiver extends BroadcastReceiver {
 
         cursor = db.getDinnerMeal(today.get(Calendar.DAY_OF_MONTH));
 
-        if(cursor.moveToFirst()) {
+        if(cursor.moveToFirst() && !cursor.isNull(0)) {
             in = new Intent(context, MainActivity.class);
             in.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
             pendingIntent = PendingIntent.getActivity(context, 0, in, PendingIntent.FLAG_CANCEL_CURRENT);
 
             strArr = context.getResources().getStringArray(R.array.notification_texts);
-            if(strArr.length > 0) text = strArr[(int)(Math.random() * strArr.length)].replace("%s", cursor.getString(0));
-            else text = cursor.getString(0);
+            text = strArr[(int)(Math.random() * strArr.length)].replace("%s", cursor.getString(0));
 
             builder = new NotificationCompat.Builder(context)
                     .setSmallIcon(R.drawable.ic_restaurant_white_24dp)
